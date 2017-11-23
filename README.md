@@ -13,7 +13,6 @@ Requirements
 
 - Node.js v7.6.0+
   - This script uses async/await.
-memo: https://github.com/GoogleChrome/puppeteer/blob/master/docs/api.md
 
 Installation
 ------------
