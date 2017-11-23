@@ -1,5 +1,5 @@
-webtrans
-========
+wtrans
+======
 
 [![NPM Version][npm-image]][npm-url]
 [![Node.js Version][node-version-image]][node-version-url]
