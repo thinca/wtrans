@@ -1,0 +1,55 @@
+{
+  "name": "wtrans",
+  "description": "translate via web service",
+  "version": "1.0.0",
+  "author": "thinca <thinca+npm@gmail.com>",
+  "bin": {
+    "wtrans": "bin/wtrans.js"
+  },
+  "bugs": {
+    "url": "https://github.com/thinca/wtrans/issues"
+  },
+  "dependencies": {
+    "commander": "^2.11.0",
+    "env-paths": "^1.0.0",
+    "js-yaml": "^3.10.0",
+    "json-rpc2-implementer": "^0.3.5",
+    "puppeteer": "^0.13.0",
+    "read-all-stream": "^3.1.0"
+  },
+  "devDependencies": {
+    "codecov": "^3.0.0",
+    "eslint": "^4.8.0",
+    "eslint-plugin-jest": "^21.2.0",
+    "jest": "^21.2.1"
+  },
+  "engines": {
+    "node": ">=7.6.0"
+  },
+  "files": [
+    "bin",
+    "lib",
+    "man",
+    "npm-shrinkwrap.json"
+  ],
+  "homepage": "https://github.com/thinca/wtrans",
+  "keywords": [
+    "cli",
+    "translate"
+  ],
+  "license": "Zlib",
+  "man": [
+    "./man/wtrans.1",
+    "./man/wtrans.yaml.5"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thinca/wtrans.git"
+  },
+  "scripts": {
+    "codecov": "codecov",
+    "lint": "eslint bin lib __tests__",
+    "man": "cd manual && make manpage",
+    "test": "jest"
+  }
+}

@@ -1,0 +1,19 @@
+language: node_js
+node_js:
+  - "node"
+  - "7.6"
+  - "8"
+  - "9"
+
+sudo: false
+
+cache:
+  directories:
+    - node_modules
+
+script:
+  - npm run lint
+  - npm test
+
+after_success:
+  - npm run codecov

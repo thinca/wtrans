@@ -1,0 +1,22 @@
+defaults:
+  service: 'example'
+  singlebyteLanguage: 'en'
+  multibyteLanguage: 'ja'
+  toLanguageCandidates: ['en', 'ja']
+services:
+  example:
+    url: 'https://translate.example.com/'
+    ajax: true
+    sourceNodeSelector: '#source'
+    resultNodeSelector: '#result'
+    actions:
+      execute:
+        - click: '#execute'
+      from_en:
+        - click: '#from_en'
+      from_ja:
+        - click: '#from_ja'
+      to_en:
+        - click: '#to_en'
+      to_ja:
+        - click: '#to_ja'

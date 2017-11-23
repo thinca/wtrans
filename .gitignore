@@ -1,0 +1,4 @@
+/coverage
+/man
+/node_modules
+npm-debug.log*
