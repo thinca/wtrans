@@ -29,6 +29,9 @@ jest.mock("puppeteer", () => {
     async waitForNavigation(options) {
       mockFunc({waitForNavigation: [options]});
     }
+    async type(selector, text) {
+      mockFunc({type: [selector, text]});
+    }
     async close() {
       mockFunc({close: []});
     }
