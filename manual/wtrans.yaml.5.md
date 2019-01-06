@@ -60,6 +60,11 @@ services.&lt;name&gt;.sourceNodeSelector
 services.&lt;name&gt;.resultNodeSelector
   CSS selector to specify result text.
 
+services.&lt;name&gt;.resultContainerSelector
+  CSS selector to specify result container.
+  When ajax is true and result text node is appeared after translation,
+  you need to set this option to watch the results appear.
+
 services.&lt;name&gt;.ignoreResultXPath
   When on ajax mode, this program waits for result node has changed.
   Sometimes the result node changes in "during translate".
