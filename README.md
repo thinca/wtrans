@@ -26,6 +26,8 @@ $ npm install -g wtrans
 Synopsis
 --------
 
+First of all, you must write and put a config file.  See [wtrans.yaml manual](manual/wtrans.yaml.5.md) for detail.
+
 ```sh
 # Translates argument text
 $ wtrans Hello
