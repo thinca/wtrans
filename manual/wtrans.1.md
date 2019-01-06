@@ -29,8 +29,8 @@ OPTIONS
   Langeage of result text.
 
 `-c`, `--config` *config-file*
-  Use the alternate *config-file* instead of */etc/foo.conf*. This
-  overrides any `WTRANS_CONFIG` environment variable.
+  Use the alternate *config-file* instead of default file. This
+  overrides `WTRANS_CONFIG` environment variable.
 
 `-s`, `--service` *service*
   Service name.  Services are defined in wtrans.yaml(5).
