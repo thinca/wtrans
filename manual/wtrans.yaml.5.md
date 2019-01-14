@@ -65,9 +65,12 @@ services.&lt;name&gt;.resultContainerSelector
   When ajax is true and result text node is appeared after translation,
   you need to set this option to watch the results appear.
 
-services.&lt;name&gt;.ignoreResultXPath
-  When on ajax mode, this program waits for result node has changed.
+services.&lt;name&gt;.ignoreResultPattern
+  When on ajax mode, this program waits for result has changed.
   Sometimes the result node changes in "during translate".
+  The result is ignored when the result matches to this pattern.
+
+services.&lt;name&gt;.ignoreResultXPath
   The result is ignored when the node is found by this XPath.
 
 services.&lt;name&gt;.actions.\*
