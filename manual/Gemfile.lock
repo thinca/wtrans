@@ -1,26 +1,21 @@
-GIT
-  remote: https://github.com/sunaku/md2man
-  revision: f754cab52140372d74fb5bfd7c109dd69cc8b51d
-  specs:
-    md2man (5.1.1)
-      binman (~> 5.0)
-      redcarpet (~> 3.0)
-      rouge (~> 1.0)
-
 GEM
   remote: https://rubygems.org/
   specs:
     binman (5.1.0)
       opener (>= 0.1.0, < 1)
+    md2man (5.1.2)
+      binman (~> 5.0)
+      redcarpet (~> 3.0)
+      rouge (~> 3.0)
     opener (0.1.0)
     redcarpet (3.4.0)
-    rouge (1.11.1)
+    rouge (3.3.0)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  md2man!
+  md2man
 
 BUNDLED WITH
-   1.15.4
+   1.17.2
