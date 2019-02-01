@@ -51,7 +51,7 @@ See also:
 License
 -------
 
-Zlib License
+[Zlib License](LICENSE.txt)
 
 Author
 ------
