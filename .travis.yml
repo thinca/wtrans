@@ -18,7 +18,6 @@ before_install:
   - npm install -g codecov
 
 script:
-  - npm run lint
   - npm test
 
 after_success:
@@ -26,6 +25,12 @@ after_success:
 
 jobs:
   include:
+    - name: Lint
+      node_js: "node"
+      before_install: skip
+      script:
+        - npm run lint
+      after_success: skip
     - stage: npm release
       if: tag IS present
       node_js: "node"
