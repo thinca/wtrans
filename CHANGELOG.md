@@ -1,3 +1,10 @@
+v1.1.1 (2019-11-18)
+-------------------
+
+- Update dependencies.
+- Update around development environment.
+
+
 v1.1.0 (2019-01-23)
 -------------------
 
