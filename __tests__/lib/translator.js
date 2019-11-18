@@ -230,10 +230,10 @@ describe("Translator", () => {
       });
 
       describe("when the page does not opened", () => {
-        it("throws an Error", async () => {
+        it("throws an Error", () => {
           expect.assertions(1);
           const input = "sample text";
-          expect(translator.translate("example", input, "en", "ja")).rejects.toBeInstanceOf(Error);
+          return expect(translator.translate("example", input, "en", "ja")).rejects.toBeInstanceOf(Error);
         });
       });
     });

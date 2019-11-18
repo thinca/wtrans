@@ -124,8 +124,8 @@ describe("command", () => {
         throw new Error("fail");
       });
     });
-    it("throws an error", async () => {
-      expect(command(cmd_arg)).rejects.toBeInstanceOf(Error);
+    it("throws an error", () => {
+      return expect(command(cmd_arg)).rejects.toBeInstanceOf(Error);
     });
   });
 
