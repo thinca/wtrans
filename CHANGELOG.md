@@ -1,3 +1,12 @@
+Next Release
+-------------------
+
+- Update Puppeteer to v2.
+  - Support version of Node.js is now `v8.9.0+`.
+- Update env-paths to v2.
+  - The default location of config file on Windows was changed.
+
+
 v1.1.1 (2019-11-18)
 -------------------
 

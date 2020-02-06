@@ -47,7 +47,7 @@ OPTIONS
 FILES
 -----
 
-Windows: *%LOCALAPPDATA%\wtrans\Config\wtrans.yaml*  
+Windows: *%APPDATA%\wtrans\Config\wtrans.yaml*  
 MacOS: *$HOME/Library/Preferences/wtrans/wtrans.yaml*  
 Linux: *$XDG_CONFIG_HOME/wtrans/wtrans.yaml*  
 *~/.wtrans.yaml*

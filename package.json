@@ -10,20 +10,20 @@
     "url": "https://github.com/thinca/wtrans/issues"
   },
   "dependencies": {
-    "commander": "^4.0.1",
-    "env-paths": "^1.0.0",
+    "commander": "^4.1.1",
+    "env-paths": "^2.2.0",
     "js-yaml": "^3.13.1",
     "json-rpc2-implementer": "^0.4.0",
-    "puppeteer": "^1.20.0",
+    "puppeteer": "^2.1.1",
     "read-all-stream": "^3.1.0"
   },
   "devDependencies": {
-    "eslint": "^6.6.0",
-    "eslint-plugin-jest": "^23.0.4",
+    "eslint": "^6.8.0",
+    "eslint-plugin-jest": "^23.6.0",
     "jest": "^24.9.0"
   },
   "engines": {
-    "node": ">=7.6.0"
+    "node": ">=8.0.0"
   },
   "files": [
     "bin",
