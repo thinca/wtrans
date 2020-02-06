@@ -44,6 +44,9 @@ OPTIONS
 `--list-services`
   Output all service names from config and exit.
 
+`-h`, `--help`
+  Output usage information.
+
 FILES
 -----
 
