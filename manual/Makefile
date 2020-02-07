@@ -1,5 +1,5 @@
 output-dir := ../man
-vendor := vendor
+bundle-dir := .bundle
 mds := $(notdir $(wildcard *.md))
 man-files := $(addprefix $(output-dir)/, $(basename $(mds)))
 
@@ -7,11 +7,11 @@ all: manpage
 
 manpage: $(man-files)
 
-$(output-dir)/%: %.md | $(vendor) $(output-dir)
+$(output-dir)/%: %.md | $(bundle-dir) $(output-dir)
 	bundle exec md2man-roff $*.md > $@
 
-$(vendor):
-	bundle install --path $(vendor)/bundle
+$(bundle-dir):
+	bundle install
 
 $(output-dir):
 	mkdir -p $(output-dir)
