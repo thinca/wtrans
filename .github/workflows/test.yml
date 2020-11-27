@@ -1,0 +1,49 @@
+name: 'Test'
+on:
+  push:
+  pull_request:
+  schedule:
+    - cron: '0 0 1 * *'
+
+jobs:
+  test:
+    name: 'Test on Node.js ${{ matrix.node-version }}'
+    strategy:
+      matrix:
+        node-version:
+          - "10.18.1"
+          - "10"
+          - "11.0"
+          - "11"
+          - "12.0"
+          - "12"
+          - "13.0"
+          - "13"
+          - "14.0"
+          - "14"
+          - "15.0"
+          - "15"
+          - "*"
+      fail-fast: false
+
+    runs-on: 'ubuntu-latest'
+    timeout-minutes: 10
+
+    steps:
+      - uses: 'actions/checkout@v2'
+      - name: 'Setup Node.js ${{ matrix.node-version }}'
+        uses: 'actions/setup-node@v2-beta'
+        with:
+          node-version: '${{ matrix.node-version }}'
+      - run: npm install -g npm@v7
+      - uses: 'bahmutov/npm-install@v1'
+      - name: 'Run test'
+        run: |
+          npm test
+      - name: 'Send coverage'
+        uses: 'codecov/codecov-action@v1'
+        env:
+          NODE: '${{ matrix.node-version }}'
+          REF: '${{ github.ref }}'
+        with:
+          env_vars: 'NODE,REF'
