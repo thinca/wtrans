@@ -1,25 +1,16 @@
-WTRANS.YAML 5 "NOVEMBER 2017"
-=======================================
+# wtrans.yaml - Configuration file for wtrans command
 
-NAME
-----
-
-wtrans.yaml - Configuration file for wtrans command
-
-SYNOPSIS
---------
+## SYNOPSIS
 
 `$WTRANS_CONFIG`, `$XDG_CONFIG_HOME/wtrans/wtrans.yaml`, `$HOME/.wtrans.yaml`
 
-DESCRIPTION
------------
+## DESCRIPTION
 
 wtrans(1) needs a configuration file.
 
 `wtrans.yaml` is a YAML format file.
 
-ENTRIES
--------
+## ENTRIES
 
 defaults.service
   A service name to used as default.
@@ -85,8 +76,10 @@ services.&lt;name&gt;.actions.\*
   Each actions must contains a single action.
   Actions are following:
 
+  ```
   - click: 'selector'
   - select: ['selector', 'select-value']
+  ```
 
 services.&lt;name&gt;.actions.startup
   This is executed on the page is opened.
@@ -113,8 +106,7 @@ puppeteerOptions
   An object that passed to `puppeteer.launc()`.
   This is deeply depends on internal.  Please use with care.
 
-SERVICE
--------
+## SERVICE
 
 Here is a sequence for translation.
 
@@ -130,12 +122,10 @@ Here is a sequence for translation.
         2. Otherwise, executes `execute` action.
     4. Waits and gets the result from `resultNodeSelector`.
 
-AUTHOR
-------
+## AUTHOR
 
 thinca <thinca@gmail.com>
 
-SEE ALSO
---------
+## SEE ALSO
 
 wtrans(1), [Project Repository](https://github.com/thinca/wtrans)

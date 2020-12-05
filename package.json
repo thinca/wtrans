@@ -20,7 +20,8 @@
   "devDependencies": {
     "eslint": "^6.8.0",
     "eslint-plugin-jest": "^23.6.0",
-    "jest": "^24.9.0"
+    "jest": "^24.9.0",
+    "marked-man": "github:kapouer/marked-man"
   },
   "engines": {
     "node": ">=8.9.0"

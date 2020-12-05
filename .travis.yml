@@ -46,8 +46,7 @@ jobs:
       install: skip
       script: skip
       after_success:
-        - gem install bundler:2.1.4
-        - '(cd manual && make)'
+        - npm run man
       deploy:
         provider: npm
         edge: true
