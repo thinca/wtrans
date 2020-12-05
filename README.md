@@ -11,7 +11,7 @@ A CLI tool to translate text via web translation service.
 Requirements
 ------------
 
-- Node.js v8.9.0+
+- Node.js v10.18.1+
   - This is required by [Puppeteer](https://pptr.dev/)
 
 Installation
