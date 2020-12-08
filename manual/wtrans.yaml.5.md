@@ -79,6 +79,7 @@ services.&lt;name&gt;.actions.\*
   ```
   - click: 'selector'
   - select: ['selector', 'select-value']
+  - screenshot: 'path/to/screenshot.png'
   ```
 
 services.&lt;name&gt;.actions.startup
