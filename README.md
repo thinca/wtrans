@@ -1,5 +1,4 @@
-wtrans
-======
+# wtrans
 
 [![NPM Version][npm-image]][npm-url]
 [![Node.js Version][node-version-image]][node-version-url]
@@ -8,14 +7,14 @@ wtrans
 
 A CLI tool to translate text via web translation service.
 
-Requirements
-------------
+
+## Requirements
 
 - Node.js v10.18.1+
   - This is required by [Puppeteer](https://pptr.dev/)
 
-Installation
-------------
+
+## Installation
 
 Install it using [npm](https://www.npmjs.com/):
 
@@ -23,8 +22,8 @@ Install it using [npm](https://www.npmjs.com/):
 $ npm install -g wtrans
 ```
 
-Synopsis
---------
+
+## Synopsis
 
 First of all, you must write and put a config file.  See [wtrans.yaml manual](manual/wtrans.yaml.5.md) for detail.
 
@@ -48,13 +47,12 @@ See also:
 - [wtrans.yaml manual](manual/wtrans.yaml.5.md)
 
 
-License
--------
+## License
 
 [zlib License](LICENSE.txt)
 
-Author
-------
+
+## Author
 
 thinca <thinca+npm@gmail.com>
 
