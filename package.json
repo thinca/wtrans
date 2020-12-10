@@ -49,6 +49,7 @@
   "scripts": {
     "lint": "eslint bin lib __tests__",
     "man": "cd manual && make manpage",
-    "test": "jest"
+    "test": "jest",
+    "version": "sed -i -e \"s/^## Unreleased$/## v$(jq -r .version package.json) ($(date '+%Y-%m-%d'))/\" CHANGELOG.md && git add CHANGELOG.md"
   }
 }
