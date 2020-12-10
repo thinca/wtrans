@@ -20,7 +20,7 @@ jobs:
           - "14.0"
           - "14"
           - "15"
-          - "*"
+          - "x"
       fail-fast: false
 
     runs-on: 'ubuntu-latest'
