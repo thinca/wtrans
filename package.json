@@ -1,7 +1,7 @@
 {
   "name": "wtrans",
   "description": "translate via web service",
-  "version": "2.1.0",
+  "version": "3.0.0",
   "author": "thinca <thinca+npm@gmail.com>",
   "bin": {
     "wtrans": "bin/wtrans.js"

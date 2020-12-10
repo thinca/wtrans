@@ -1,6 +1,6 @@
 # CHANGELOG
 
-## Unreleased
+## v3.0.0 (2020-12-10)
 
 - Update Puppeteer to v5.
   - Support version of Node.js is now `v10.18.1+`.
