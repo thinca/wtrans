@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## Unreleased
+
+- Update dependencies.
+
+
 ## v3.0.0 (2020-12-10)
 
 - Update Puppeteer to v5.
