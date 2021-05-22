@@ -3,6 +3,7 @@
 ## Unreleased
 
 - Update dependencies.
+  - Update Puppeteer to v9.
 
 
 ## v3.0.0 (2020-12-10)
