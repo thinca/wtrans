@@ -10,7 +10,7 @@
     "url": "https://github.com/thinca/wtrans/issues"
   },
   "dependencies": {
-    "commander": "^6.2.0",
+    "commander": "^7.2.0",
     "env-paths": "^2.2.0",
     "js-yaml": "^3.14.0",
     "json-rpc2-implementer": "^0.4.0",

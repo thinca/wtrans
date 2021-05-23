@@ -4,6 +4,7 @@
 
 - Update dependencies.
   - Update Puppeteer to v9.
+  - Update commander to v7.
 
 
 ## v3.0.0 (2020-12-10)
