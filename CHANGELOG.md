@@ -2,6 +2,7 @@
 
 ## Unreleased
 
+- Add `actions.error`.
 - Update dependencies.
   - Update Puppeteer to v9.
   - Update commander to v7.

@@ -103,6 +103,9 @@ services.&lt;name&gt;.actions.execute
 services.&lt;name&gt;.actions.execute\_from\_&lt;from-lang&gt;\_to\_&lt;to-lang&gt;
   This is executed to execute translation.
 
+services.&lt;name&gt;.actions.error
+  This is executed when an error occurred while translating.
+
 puppeteerOptions
   An object that passed to `puppeteer.launc()`.
   This is deeply depends on internal.  Please use with care.
