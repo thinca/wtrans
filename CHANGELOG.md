@@ -1,6 +1,6 @@
 # CHANGELOG
 
-## Unreleased
+## v3.1.0 (2021-05-23)
 
 - Add `actions.error`.
 - Update dependencies.

@@ -1,11 +1,11 @@
 {
   "name": "wtrans",
-  "version": "3.0.0",
+  "version": "3.1.0",
   "lockfileVersion": 2,
   "requires": true,
   "packages": {
     "": {
-      "version": "3.0.0",
+      "version": "3.1.0",
       "license": "Zlib",
       "dependencies": {
         "commander": "^7.2.0",
